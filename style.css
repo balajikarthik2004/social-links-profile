@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    place-content: center;
+    display: grid;
+    min-height: 100vh;
+    font-family: 'outfit',sans-serif;
+    line-height: 1.4;
+}
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Green: hsl(75, 94%, 57%);
+    --Off-Black: hsl(0, 0%, 8%);
+}
+.container{
+    min-width: 30%;
+    border-radius: 15px;
+    color:var(--White);
+    background-color: var(--Dark-Grey);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+header{
+    text-align: center;
+    margin: 20px;
+}
+img{
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.text-main h1{
+    color: var(--White);
+    margin: 10px;
+}
+.text-main h3{
+    color: var(--Green);
+}
+a{
+    
+    display: block;
+    color: var(--White);
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid rgb(216, 202, 202);
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 10px 10px 10%;
+    width: 80%;
+    background-color: var(--Grey);
+    transition: background-color,transform 0.5s;
+}
+a:hover{
+    transform: scale(1.05);
+    background-color: rgb(117, 111, 111);
+}
+p{
+    font-size: 15px;
+    text-align: center;
+    margin: 20px;
+
+}
+
